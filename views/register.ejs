@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>
+            Lo<span>go</span> <span>||</span> Slo<span>gan</span>
+        </h1>
+    </header>
+
+    <div class="login-box2">
+        <h1>Sign Up</h1>
+        <%- include ('./partials/messages.ejs') %>
+        <form action="" method="POST">
+            <input id="email" name="email" type="email" class="userinput2" placeholder="Email" value="<%= typeof email != 'undefined' ? email : ''%>" >
+            <input id="username" name="username" type="user" class="userinput2" placeholder="Username" value="<%= typeof username != 'undefined' ? username : ''%>" >
+            <input id="password" name="pass" type="password" class="userinput2" placeholder="Password" value="<%= typeof pass != 'undefined' ? pass : ''%>" >
+            <input id="confirm-password" name="confirmpass" type="password" class="passinput2" placeholder="Confirm Password" value="<%= typeof confirmpass != 'undefined' ? confirmpass : ''%>" >
+            <div class="line2">
+                <a href="/users/login">LOGIN?</a>
+                <button id="submit" type="submit" class="login-botton">SIGN UP</button>
+            </div>
+        </form>
+        
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

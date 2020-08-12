@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+/* Login Page Style */
+
+header {
+    background: #1E2D72;
+    padding: 40px 0 123px 0;
+}
+
+header > h1 {
+    text-align: center;
+    color: #E5E5E5;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+span {
+    font-weight: 500;
+}
+
+body {
+    background: #E8EAF1;
+}
+
+.login-box {
+    position: absolute;
+    width: 550px;
+    height: fit-content;
+    background: #FBFFFB;
+    margin: 0 auto;
+    padding: 50px 0px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    top: 100px;
+    left: 15%;
+    right: 15%;
+}
+
+.login-box > h1 {
+    font-weight: 300;
+    color: #6D6D6D;
+    font-size: 37px;
+    margin: 0 0 10px 80px;
+}
+
+.userinput {
+    border: none;
+    border-bottom: 0.8px solid rgba(109, 109, 109, 0.4);
+    display: block;
+    padding: 20px 0px 15px 0;
+    width: 350px;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 20px;
+    margin-left: 83px;
+    outline: none;
+}
+
+.passinput {
+    border: none;
+    border-bottom: 0.8px solid rgba(109, 109, 109, 0.4);
+    display: block;
+    padding: 20px 0px 15px 0;
+    width: 350px;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 30px;
+    margin-left: 83px;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(109, 109, 109, 0.8);
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    margin-left: 83px;
+    margin-bottom: 51px;
+}
+
+label {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 1px;
+    color: rgba(109, 109, 109, 0.8);
+}
+
+.line {
+    border-top: 0.8px solid rgba(109, 109, 109, 0.4);
+    width: 100%;
+    height: 18px;
+}
+
+.line > button {
+    position: absolute;
+    display: inline;
+    background: #d49714d8;
+    padding: 10px 30px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 1.7px;
+    right: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FBFFFB;
+    bottom: 15px;
+    transition: all 0.1s ease;
+}
+
+.line > button:hover {
+    cursor: pointer;
+    background: #D49814;
+    box-shadow: 0 0 10px #D49814;
+}
+
+.line > a {
+    position: absolute;
+    line-height: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    right: 150px;
+    bottom: 23px;
+    text-decoration: none;
+    transition: all 0.1s ease;
+}
+
+.line > a:hover {
+    color: rgba(62, 62, 62, 0.8);
+    text-decoration: none;
+}
+
+
+
+
+/* SignUp Page Style */
+
+.login-box2 {
+    position: absolute;
+    width: 550px;
+    height: fit-content;
+    background: #FBFFFB;
+    margin: 0 auto;
+    padding: 50px 0px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    top: 100px;
+    left: 15%;
+    right: 15%;
+}
+
+.login-box2 > h1 {
+    font-weight: 300;
+    color: #6D6D6D;
+    font-size: 37px;
+    margin: 0 0 10px 80px;
+}
+
+.userinput2 {
+    border: none;
+    border-bottom: 0.8px solid rgba(109, 109, 109, 0.4);
+    display: block;
+    padding: 20px 0px 15px 0;
+    width: 350px;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 20px;
+    margin-left: 83px;
+    outline: none;
+}
+
+.passinput2 {
+    border: none;
+    border-bottom: 0.8px solid rgba(109, 109, 109, 0.4);
+    display: block;
+    padding: 20px 0px 15px 0;
+    width: 350px;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 50px;
+    margin-left: 83px;
+    outline: none;
+}
+
+.line2 {
+    border-top: 0.8px solid rgba(109, 109, 109, 0.4);
+    width: 100%;
+    height: 20px;
+}
+
+.line2 > button {
+    position: absolute;
+    display: inline;
+    background: #d49714d8;
+    padding: 10px 30px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 1.7px;
+    right: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FBFFFB;
+    bottom: 15px;
+    transition: all 0.1s ease;
+}
+
+.line2 > button:hover {
+    cursor: pointer;
+    background: #D49814;
+    box-shadow: 0 0 10px #D49814;
+}
+
+.line2 > a {
+    position: absolute;
+    line-height: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    right: 170px;
+    bottom: 23px;
+    text-decoration: none;
+    transition: all 0.1s ease;
+}
+
+.line2 > a:hover {
+    color: rgba(62, 62, 62, 0.8);
+    text-decoration: none;
+}
+
+
+/* Welcome Page */
+
+.login-box3 {
+    position: absolute;
+    text-align: center;
+    width: 550px;
+    height: fit-content;
+    background: #FBFFFB;
+    margin: 0 auto;
+    padding: 25px 0px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    top: 130px;
+    left: 15%;
+    right: 15%;
+}
+
+.login-box3 > h1 {
+    font-weight: 300;
+    color: #6D6D6D;
+    font-size: 47px;
+    margin: 35px 0 30px 0px;
+}
+
+.login-box3 > h2 {
+    font-weight: 300;
+    color: #6D6D6D;
+    font-size: 27px;
+    margin: 35px 0 30px 0px;
+}
+
+.register {
+    margin: 60px 0 10px 0;
+}
+
+.register-botton-w {
+    background: #D49814;
+    width: 70%;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #E5E5E5;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.login-botton-w {
+    background: #D49814;
+    width: 70%;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #E5E5E5;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.register > button:hover {
+    cursor: pointer;
+    background: #D49814;
+    box-shadow: 0 0 10px #D49814;
+}
+
+.login > button:hover {
+    cursor: pointer;
+    background: #D49814;
+    box-shadow: 0 0 10px #D49814;
+}
+
+.msgs {
+    width: 90%;
+    font-size: 15px;
+    margin: 0px auto;
+}
+
+
+@media (max-width: 890px ) {
+.login-box3 {
+    width: 500px;
+}
+.login-box3 > h1 {
+    font-size: 43px;
+}
+.login-box3 > h2 {
+    font-size: 23px;
+    margin-top: 0;
+}
+.login-box2, .login-box {
+    width: 500px;
+}
+}
+
+@media (max-width: 700px ) {
+.login-box3, .login-box {
+    width: 400px;
+}
+.login-box3 > h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.login-box3 > h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+.login-box2 {
+    width: 400px;
+}
+.login-box2 > h1 {
+    font-size: 33px;
+    text-align: center;
+    margin-left: 0;
+}
+.userinput2 {
+    width: 300px;
+    margin-left: 53px;
+}
+.passinput2 {
+    width: 300px;
+    margin-left: 53px;
+}
+.login-box > h1 {
+    text-align: center;
+    margin-left: 0;
+    font-size: 33px;
+}
+.userinput {
+    width: 300px;
+    margin-left: 53px;
+}
+.passinput {
+    width: 300px;
+    margin-left: 53px;
+}
+.checkbox {
+    margin-left: 53px;
+    width: 15px;
+}
+label {
+    font-size: 11px;
+    margin-top: 3px;
+}
+.msgs {
+    font-size: 13px;
+}
+}
+
+@media (max-width: 580px ) {
+.login-box3, .login-box {
+    width: 350px;
+}
+.login-box3 > h1 {
+    font-size: 35px;
+}
+.login-box3 > h2 {
+    font-size: 18px;
+}
+.login-box2 {
+    width: 350px;
+}
+.userinput2 {
+    width: 270px;
+    margin-left: 43px;
+}
+.passinput2 {
+    width: 270px;
+    margin-left: 43px;
+}
+.userinput {
+    width: 270px;
+    margin-left: 43px;
+}
+.passinput {
+    width: 270px;
+    margin-left: 43px;
+}
+.checkbox {
+    margin-left: 43px;
+    width: 15px;
+}
+.msgs {
+    font-size: 12px;
+}
+}
+
+@media (max-width: 480px ) {
+.login-box3, .login-box {
+    width: 280px;
+    left: 0%;
+    right: 0%;
+}
+.login-box3 > h1 {
+    font-size: 30px;
+}
+.login-box3 > h2 {
+    font-size: 17px;
+}
+.login-box2 {
+    width: 280px;
+    left: 0%;
+    right: 0%;
+}
+.userinput2 {
+    width: 230px;
+    margin-left: 26px;
+}
+.passinput2 {
+    width: 230px;
+    margin-left: 26px;
+}
+.userinput {
+    width: 230px;
+    margin-left: 26px;
+}
+.passinput {
+    width: 230px;
+    margin-left: 26px;
+}
+.checkbox {
+    margin-left: 26px;
+    width: 13px;
+}
+.line > a {
+    font-size: 10px;
+    bottom: 25px;
+}
+.msgs {
+    font-size: 9px;
+}
+}
